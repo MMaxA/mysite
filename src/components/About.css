@@ -1,0 +1,21 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile {
+    width: 200px;
+    border-radius: 2%;
+    margin-right: 40px;
+  }
+  
+  .profile-photo {
+    width: 100%;
+  }
+  
+  .about-text {
+    text-align: justify;
+    max-width: 600px;
+  }
+  
