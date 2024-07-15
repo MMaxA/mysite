@@ -7,6 +7,7 @@ import TodoList from "./components/ToDoList";
 import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
 import "./App.css";
+import Main from "./components/Main";
 
 function App() {
   return (
@@ -14,11 +15,12 @@ function App() {
       <div className="container">
       <Navigation />
         <Routes>
-          <Route path="/" element={<TaskManager />} />
+          <Route path="/" element={<Main />} />
+          <Route path="/taskmanager" element={<TaskManager />} />
           <Route path="/todo" element={<TodoList />} />
           <Route path="/weather" element={<Weather />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contacts" element={<Contact />} />
         </Routes>
       </div>
     </>

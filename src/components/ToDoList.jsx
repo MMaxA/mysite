@@ -21,7 +21,7 @@ const ToDolist = () => {
   };
 
   return (
-    <div className="section portfolio-section">
+    <div className="container portfolio-section">
       <h2>ToDo List</h2>
       <div className="todo-app">
         <div className="todo-input">

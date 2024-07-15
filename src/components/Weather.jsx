@@ -30,7 +30,7 @@ const Weather = () => {
   const openWeatherMapLink = weatherData ? `https://openweathermap.org/city/${weatherData.id}` : '';
 
   return (
-    <div className="section weather-section">
+    <div className="container weather-section">
       <h2>Weather Forecast</h2>
       <form onSubmit={handleSubmit}>
         <input

@@ -34,7 +34,7 @@ const TaskManager = () => {
   };
 
   return (
-    <div className="section blog-section">
+    <div className="container taskManager-wrapper">
       <h2>Task Manager</h2>
       <div className="task-manager">
         <div className="task-input">
