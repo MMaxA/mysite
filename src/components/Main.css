@@ -37,7 +37,6 @@
 
 .main__items-item img {
   width: 70px;
-  opacity: 0.9;
   transition: opacity 0.2s ease-out;
   margin: 20px 0px 20px 0px;
 }
