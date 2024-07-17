@@ -12,10 +12,10 @@ import Main from "./components/Main";
 function App() {
   return (
     <>
-      <div className="container">
       <Navigation />
+      <div className="container">
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route exact path="/" element={<Main />} />
           <Route path="/taskmanager" element={<TaskManager />} />
           <Route path="/todo" element={<TodoList />} />
           <Route path="/weather" element={<Weather />} />
