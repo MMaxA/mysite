@@ -14,20 +14,20 @@ const About = () => {
         <h2>About Me</h2>
         <p>
           My name is {user.name}. I'm 42 years old. I am a web developer and
-          also teach students at the Ural State Technical University. 
+          also teach students at the Ural State Technical University.
         </p>
         <p>I have:</p>
         <ul>
           <li> - PhD in Economics and a Master's in Applied Informatics.</li>
           <li>
-            - experience of working with React.js, Redux Toolkit, Python (Django)
+            - experience of working with React.js, Redux Toolkit, Python
+            (Django)
           </li>
           <li>- been working as a WEB-developer since 2011</li>
           <li>- experience in ASP.NET MVC and C#.</li>
         </ul>
       </div>
     </div>
-    
   );
 };
 

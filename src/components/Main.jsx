@@ -14,7 +14,8 @@ function Main() {
           <img src={taskImg} alt="task" />
           <h2>Task Manager</h2>
           <p>
-            Организуйте работу и личные дела. Создавайте задачи, расставляйте приоритеты и следите за прогрессом.
+            Organize your work and personal affairs. Create tasks, prioritize
+            and monitor progress.
           </p>
         </NavLink>
 
@@ -22,7 +23,8 @@ function Main() {
           <img src={toDoImg} alt="toDo" />
           <h2>ToDo List</h2>
           <p>
-            Создавайте списки покупок, дел на день и отмечайте выполненные.
+            Create shopping and to-do lists for the day and mark their
+            completion.
           </p>
         </NavLink>
 
@@ -30,7 +32,8 @@ function Main() {
           <img src={weatherImg} alt="weather" />
           <h2>Weather</h2>
           <p>
-            Получайте точные данные о погоде в любом городе мира. Просматривайте прогнозы на несколько дней.
+            Get accurate weather data in any city in the world. Browse forecasts
+            for several days.
           </p>
         </NavLink>
 
@@ -38,7 +41,8 @@ function Main() {
           <img src={contactsImg} alt="contacts" />
           <h2>Contacts</h2>
           <p>
-            Если возникнут вопросы, Вы можете связаться с нами по email или заполнить форму обратной связи.
+            If you have any questions, you can contact us by email or fill out
+            the feedback form.
           </p>
         </NavLink>
       </div>

@@ -27,7 +27,7 @@
   padding: 10px;
   margin-bottom: 40px;
   color: var(--text-color);
-  
+
   transition: all 0.3s;
 }
 
@@ -62,17 +62,17 @@
 }
 
 @media screen and (max-width: 992px) {
-    .main__items-item {
-        width: 47%;
-    }
+  .main__items-item {
+    width: 47%;
+  }
 
-    .main__items {
-        width: 90%;
-    }
+  .main__items {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .main__items-item {
-        width: 100%;
-    }
+  .main__items-item {
+    width: 100%;
+  }
 }
