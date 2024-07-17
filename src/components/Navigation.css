@@ -13,11 +13,13 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    background-color: #444;
     height: var(--header-height);
     padding: 1rem;
   }
   
   .nav__logo {
+    margin: 0 1rem;
     color: var(--first-color);
     transition: color 0.4s;
     font-size: var(--h2-font-size);
@@ -84,6 +86,8 @@
   }
   
   .nav__link {
+    margin: 0 1rem;
+    text-decoration: none;
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
     transition: color 0.4s;

@@ -8,14 +8,15 @@ import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
 import "./App.css";
 import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Navigation />
       <div className="container">
         <Routes>
-          <Route exact path="/" element={<Main />} />
+          <Route exact path="/mysite" element={<Main />} />
           <Route path="/taskmanager" element={<TaskManager />} />
           <Route path="/todo" element={<TodoList />} />
           <Route path="/weather" element={<Weather />} />
@@ -23,7 +24,8 @@ function App() {
           <Route path="/contacts" element={<Contact />} />
         </Routes>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 

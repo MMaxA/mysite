@@ -8,16 +8,13 @@ import { NavLink } from "react-router-dom";
 
 function Main() {
   return (
-    <div className="container main-wrapper">
+    <div className="main-wrapper">
       <div className="main__items">
         <NavLink to="/taskmanager" className="main__items-item">
           <img src={taskImg} alt="task" />
           <h2>Task Manager</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            exercitationem iste, voluptatum, quia explicabo laboriosam rem
-            adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa
-            asperiores harum? Dicta odio aut hic.
+            Организуйте работу и личные дела. Создавайте задачи, расставляйте приоритеты и следите за прогрессом.
           </p>
         </NavLink>
 
@@ -25,10 +22,7 @@ function Main() {
           <img src={toDoImg} alt="toDo" />
           <h2>ToDo List</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            exercitationem iste, voluptatum, quia explicabo laboriosam rem
-            adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa
-            asperiores harum? Dicta odio aut hic.
+            Создавайте списки покупок, дел на день и отмечайте выполненные.
           </p>
         </NavLink>
 
@@ -36,10 +30,7 @@ function Main() {
           <img src={weatherImg} alt="weather" />
           <h2>Weather</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            exercitationem iste, voluptatum, quia explicabo laboriosam rem
-            adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa
-            asperiores harum? Dicta odio aut hic.
+            Получайте точные данные о погоде в любом городе мира. Просматривайте прогнозы на несколько дней.
           </p>
         </NavLink>
 
@@ -47,10 +38,7 @@ function Main() {
           <img src={contactsImg} alt="contacts" />
           <h2>Contacts</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            exercitationem iste, voluptatum, quia explicabo laboriosam rem
-            adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa
-            asperiores harum? Dicta odio aut hic.
+            Если возникнут вопросы, Вы можете связаться с нами по email или заполнить форму обратной связи.
           </p>
         </NavLink>
       </div>

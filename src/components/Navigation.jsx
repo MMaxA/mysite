@@ -18,7 +18,7 @@ const Navigation = () => {
   return (
     <header className="nav-wrapper">
       <nav className="nav">
-        <NavLink to="/" className="nav__logo">
+        <NavLink to="/mysite" className="nav__logo">
           Dendanart
         </NavLink>
 
@@ -27,6 +27,11 @@ const Navigation = () => {
           id="nav-menu"
         >
           <ul className="nav__list">
+          <li className="nav__item">
+              <NavLink to="/mysite" className="nav__link" onClick={closeMenuOnMobile}>
+                Home
+              </NavLink>
+            </li>
             <li className="nav__item">
               <NavLink to="/taskmanager" className="nav__link" onClick={closeMenuOnMobile}>
                 Task Manager

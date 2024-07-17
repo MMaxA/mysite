@@ -5,35 +5,11 @@ body {
   background-color: #f4f4f4;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-}
-
-.logo {
-  width: 75px;
-  margin-right: 20px;
-}
-
-
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: #444;
-  padding: 0.5rem 0;
-}
-
-nav a {
-  color: #fff;
-  margin: 0 1rem;
-  text-decoration: none;
+.app {
+  display: block;
 }
 
 .container {
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
 }

@@ -8,6 +8,7 @@
 
 :root {
   --header-height: 3.5rem;
+  --footer-height: 3.5rem;
   --first-color: hsl(28, 88%, 62%);
   --title-color: hsl(0, 0%, 95%);
   --text-color: hsl(0, 3%, 19%);
@@ -18,7 +19,6 @@
   --small-font-size: 0.813rem;
   --font-semi-bold: 600;
   --z-tooltip: 10;
-  --z-fixed: 100;
 }
 
 body {
